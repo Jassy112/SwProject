@@ -11,7 +11,7 @@ pipeline {
     stage('Docker Build') {
       steps {
         script {
-          bat 'docker build -t SwProject-api .'
+          bat 'docker build -t swproject-api .'
         }
       }
     }
